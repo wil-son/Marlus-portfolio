@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Marlus Portfolio</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#" class="logo">
+                        <img src="img\logo\logo1.jpg" alt="" class="img-responsive">
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">Galeria 1</a>
+                </li>
+                <li>
+                    <a href="index2.html">Galeria 2</a>
+                </li>
+              
+                <li>
+                    <a href="#">Sobre</a>
+                </li>
+                
+                <li>
+                    <a href="#">Contato</a>
+                </li>
+                <li class="social-list">
+                    <ul>
+                        <li><a href="https://www.facebook.com/marlus.araujo" target="_blank"><img src="img/social/facebook.png"/></a></li>
+                        <li><a href="https://twitter.com/marlus" target="_blank"><img src="img/social/twitter.png"/></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC-TOfsEB_u-l76XTPlPpO3A" target="_blank"><img src="img/social/youtube.png"/></a></li>
+                        <li><a href="https://www.linkedin.com/profile/view?id=296407137" target="_blank"><img src="img/social/linkedin.png"/></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="slide-wrapper">
+                        <div class="slide-item" style="background-image:url('img/1.jpg');"></div>
+                        <div class="slide-item" style="background-image:url('img/2.jpg');"></div>
+                        <div class="slide-item" style="background-image:url('img/3.jpg');"></div>
+                        <div class="slide-item" style="background-image:url('img/4.jpg');"></div>
+                         <div class="slide-item" style="background-image:url('img/5.jpg');"></div>
+                          <div class="slide-item" style="background-image:url('img/6.jpg');"></div>
+                    </div>
+                    <div class="slide-nav">
+                        <div class="slide-item"><img src="img/1.jpg"></div>
+                        <div class="slide-item"><img src="img/2.jpg"></div>
+                        <div class="slide-item"><img src="img/3.jpg"></div>
+                        <div class="slide-item"><img src="img/4.jpg"></div>
+                        <div class="slide-item"><img src="img/5.jpg"></div>
+                        <div class="slide-item"><img src="img/6.jpg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+        <div id="menu-toggle">
+            <img src="img/mobile.png" width="30" height="30"/>
+        </div>
+
+    </div>
+    <!-- /#wrapper -->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/core.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+
+</body>
+
+</html>
